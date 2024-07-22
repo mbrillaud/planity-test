@@ -1,4 +1,7 @@
 .event {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     position: absolute;
     border: 1px solid #000;
     background-color: rgba(0, 123, 255, 0.5);

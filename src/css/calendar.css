@@ -1,6 +1,7 @@
 .calendar {
     position: relative;
-    height: 2400px;
+    height: 100vh; /* Uses the full height of the viewport */
+    min-height: 600px;
     border: 1px solid #ccc;
     width: 100%;
 }
