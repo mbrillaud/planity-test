@@ -1,0 +1,6 @@
+.calendar {
+    position: relative;
+    height: 2400px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
