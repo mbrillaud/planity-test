@@ -1,0 +1,7 @@
+.event {
+    position: absolute;
+    border: 1px solid #000;
+    background-color: rgba(0, 123, 255, 0.5);
+    box-sizing: border-box;
+    padding: 5px;
+}
