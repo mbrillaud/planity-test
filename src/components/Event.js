@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/event.css';
 
 const Event = ({ event }) => {
-  const { id, top, height, columnCount, columnIndex } = event;
+  const { id, start, duration, top, height, columnCount, columnIndex } = event;
 
   const style = {
     top: `${top}px`,
@@ -13,7 +13,7 @@ const Event = ({ event }) => {
 
   return (
     <div className="event" style={style}>
-      {id}
+      {id} - start : {start}, duration : {duration}
     </div>
   );
 };
