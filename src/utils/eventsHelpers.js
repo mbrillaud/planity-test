@@ -16,7 +16,7 @@ export const arrangeEvents = (events, calendarHeight) => {
     positionedEvents = _.sortBy(positionedEvents, ['startInMinutes']);
 
     // Determine overlaps and allocate events into columns
-    let columns = [];
+    const columns = [];
     positionedEvents.forEach(event => {
         let placed = false;
         for (let i = 0; i < columns.length; i++) {
