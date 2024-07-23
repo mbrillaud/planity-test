@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Event from './Event';
-import { arrangeEvents } from '../utils/utils';
+import { arrangeEvents } from '../utils/eventsHelpers';
 
 // Calendar component
 const Calendar = ({ events }) => {
